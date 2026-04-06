@@ -1,0 +1,39 @@
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		double x,y;
+		int op;
+		System.out.println("Informe o primeiro número: ");
+		x = sc.nextDouble();
+		System.out.println("Informe o segundo número: ");
+		y = sc.nextDouble();
+		System.out.println("Escolha a operação: ");
+		System.out.println("1 - soma");
+		System.out.println("2 - subtração");
+		System.out.println("3 - multiplicação");
+		System.out.println("4 - divisão");
+		System.out.print("Opção: ");
+		op = sc.nextInt();
+		switch (op) {
+			case 1 :
+			System.out.println("Resultado da soma: " +(x+y));
+			break;
+			case 2 :
+			System.out.println("Resultado da subtração: "+(x-y));
+			break;
+			case 3 :
+			System.out.println("Resultado da multiplicação: " +(x*y));
+			break;
+			case 4 :
+			if(y != 0){
+			System.out.print("O resultado da divisão é: "+(x/y));}
+			else{
+				System.out.print("Divisão impossivel");}
+				break;
+				default:
+				System.out.print("Opção invalida!");
+	}
+	sc.close();
+	}
+}
