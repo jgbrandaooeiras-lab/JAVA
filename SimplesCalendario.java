@@ -4,6 +4,7 @@ public class Exercicio2 {
 
 	public static void main(String[] args) {
 //Informar o dia da semana, dado que domingo equivale a 1;
+//switch(estrutura de seleção) aceita somente: byte, char, int, String, enum, short;
 Scanner sc = new Scanner(System.in);
 int Opcoes;
 System.out.println("1 - Domingo");
