@@ -37,7 +37,11 @@ case 6:
 	break;
 case 7: 
 	System.out.println("Hoje é Sabado!");
-}
+		break;
+		default: 
+		System.out.println("Opção invalida");
+		break;
+			}
 	sc.close();
 	}
 
